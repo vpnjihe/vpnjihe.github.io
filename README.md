@@ -1,4 +1,4 @@
-# VPN集合 - 9月20日18.9M/S|免费Shadowrocket/Clash/V2ray/SSR节点推荐，VPN节点购买推荐  更新时间 2025-09-20 09:00:25
+# VPN集合 - 9月22日20.7M/S|免费V2ray/Clash/Shadowrocket/SSR节点推荐，VPN节点购买推荐  更新时间 2025-09-22 09:14:46
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://vpnjihe.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### Clash订阅链接
 
-- https://vpnjihe.github.io/uploads/2025/09/0-20250920.yaml
-- https://vpnjihe.github.io/uploads/2025/09/1-20250920.yaml
-- https://vpnjihe.github.io/uploads/2025/09/2-20250920.yaml
-- https://vpnjihe.github.io/uploads/2025/09/3-20250920.yaml
-- https://vpnjihe.github.io/uploads/2025/09/4-20250920.yaml
+- https://vpnjihe.github.io/uploads/2025/09/0-20250922.yaml
+- https://vpnjihe.github.io/uploads/2025/09/1-20250922.yaml
+- https://vpnjihe.github.io/uploads/2025/09/2-20250922.yaml
+- https://vpnjihe.github.io/uploads/2025/09/3-20250922.yaml
+- https://vpnjihe.github.io/uploads/2025/09/4-20250922.yaml
 
 ### V2ray订阅链接
 
-- https://vpnjihe.github.io/uploads/2025/09/0-20250920.txt
-- https://vpnjihe.github.io/uploads/2025/09/1-20250920.txt
-- https://vpnjihe.github.io/uploads/2025/09/2-20250920.txt
-- https://vpnjihe.github.io/uploads/2025/09/3-20250920.txt
-- https://vpnjihe.github.io/uploads/2025/09/4-20250920.txt
+- https://vpnjihe.github.io/uploads/2025/09/0-20250922.txt
+- https://vpnjihe.github.io/uploads/2025/09/1-20250922.txt
+- https://vpnjihe.github.io/uploads/2025/09/2-20250922.txt
+- https://vpnjihe.github.io/uploads/2025/09/3-20250922.txt
+- https://vpnjihe.github.io/uploads/2025/09/4-20250922.txt
 
 ### Sing-box订阅链接
 
-- https://vpnjihe.github.io/uploads/2025/09/20250920.json
+- https://vpnjihe.github.io/uploads/2025/09/20250922.json
 
 ## 更多clash节点订阅 ：
 
