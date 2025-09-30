@@ -80,7 +80,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="/">
-                        VPN集合            </a>
+                        精选VPN节点集合            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -110,7 +110,7 @@
     <div class="clients py-5" id="client">
         <div class="banner-dott1">
             <div class="h3-head text-center">
-                <h1 class="banner-text-h3" style="word-break: break-all;">顶级免费节点 | 8月20日19.4M/S|免费V2ray/Clash/SSR/Shadowrocket节点推荐，V2rayC梯子购买推荐</h1>
+                <h1 class="banner-text-h3" style="word-break: break-all;">顶级免费节点 | 8月20日19.4M/S|免费V2ray节点/Clash节点/SSR/Shadowrocket节点推荐，V2rayC梯子购买推荐</h1>
             </div>
             <div class="container">
                 <p><a href="/">首页</a> / <a href="/free-nodes/">免费节点</a> / 正文</p>
@@ -150,8 +150,8 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
 <p style="margin-bottom:3rem;color:#999;font-style:italic;">注：跳转链接可能会 <b style="color:red;">被墙</b> ，如多次打开失败，请先使用下面不稳定免费订阅后，再尝试点击链接</p><p>&nbsp;</p><p></p><h2>订阅文件链接</h2><p>&nbsp;</p><p><strong>Clash订阅链接</strong></p><p>https://topfreenode.github.io/uploads/2025/08/0-20250820.yaml</p><p>https://topfreenode.github.io/uploads/2025/08/1-20250820.yaml</p><p>https://topfreenode.github.io/uploads/2025/08/2-20250820.yaml</p><p>https://topfreenode.github.io/uploads/2025/08/3-20250820.yaml</p><p>https://topfreenode.github.io/uploads/2025/08/4-20250820.yaml</p><p>&nbsp;</p><p><strong>V2ray订阅链接:</strong></p><p>https://topfreenode.github.io/uploads/2025/08/2-20250820.txt</p><p>https://topfreenode.github.io/uploads/2025/08/3-20250820.txt</p><p><strong>Sing-Box订阅链接</strong></p><p>https://topfreenode.github.io/uploads/2025/08/20250820.json</p><h2>使用必看</h2><p>&nbsp;</p><p>全部节点信息均来自互联网收集，且用且珍惜，推荐机场：「<a href="javascript:;" class="js_to" data-url="https://muguacloud.top/#/register?code=" data-type="Mugua" data-code="MQag6brk" rel="nofollow noopener" style="color:#c00;">木瓜云</a> 」。仅针对用于学习研究的用户分享，请勿随意传播其他信息。免费节点有效时间比较短，遇到失效是正常现象。</p><h2>突破网络藩篱：CRX破解实现科学上网的终极指南</h2>  <h2>引言：数字时代的自由通行证</h2>  <p>在信息全球化的今天，互联网本应是无国界的知识海洋，但现实中的地理限制、内容审查和隐私威胁却筑起了无形的数字高墙。当主流VPN服务频繁遭遇封锁，当传统代理工具速度堪忧，技术爱好者们将目光投向了浏览器扩展的底层改造——CRX破解技术。这种基于Chrome扩展程序的深度定制方案，正以其精准性、灵活性和隐蔽性，成为高阶用户科学上网的新选择。  </p>  <p>本文将带您深入CRX破解的技术腹地，从原理剖析到实战操作，从风险规避到替代方案比较，为您呈现一份兼具技术深度与实用价值的全景式指南。  </p>  <h2>第一章：认识CRX破解的本质</h2>  <h3>1.1 CRX文件的结构奥秘</h3>  <p>每个Chrome扩展程序本质上是一个包含HTML、CSS、JavaScript和配置文件的压缩包，其核心manifest.json文件如同扩展的DNA，定义了权限请求、内容脚本和执行规则。通过逆向工程这个约50KB左右的微型生态系统，技术者可以重写网络请求逻辑、绕过地域检测机制，甚至植入自定义的代理路由模块。  </p>  <h3>1.2 破解的三种技术层级</h3>  <ul> <li><strong>基础修改</strong>：调整manifest中的权限声明（如添加<code>"webRequest"</code>API权限）  </li> <li><strong>中级改造</strong>：重写background.js中的网络请求处理逻辑  </li> <li><strong>深度定制</strong>：注入WebSocket隧道或Shadowsocks协议实现  </li> </ul>  <h2>第二章：实战七步破解法</h2>  <h3>2.1 环境准备的三重验证</h3>  <ul> <li>使用Chromium开源版本（版本号需≥98）避免商业版检测  </li> <li>安装Node.js环境用于脚本校验  </li> <li>配置Fiddler抓包工具监控扩展行为  </li> </ul>  <h3>2.2 解压工程的黄金法则</h3>  <p>采用<code>crx3-parser</code>工具而非普通解压软件，可完整保留扩展签名信息。典型案例：某著名代理扩展的解压后会出现17个关键文件，其中<code>_locales</code>文件夹内的语言包往往包含地域限制代码。  </p>  <h3>2.3 Manifest文件的手术式修改</h3>  <p>重点修改项包括：<br /> <code>json "permissions": [   "proxy",   "webRequest",   "webRequestBlocking",   "https://*/" ]</code> 同时需注意<code>"content_security_policy"</code>字段的跨域规则放宽。  </p>  <h3>2.4 核心脚本的流量劫持改造</h3>  <p>在background.js中插入代理逻辑：<br /> <code>javascript chrome.proxy.settings.set({   value: {     mode: "fixed_servers",     rules: {       singleProxy: {         scheme: "socks5",         host: "127.0.0.1",         port: 1080       }     }   },   scope: "regular" });</code></p>  <h3>2.5 重打包的签名陷阱规避</h3>  <p>使用<code>crx-packager</code>工具打包时添加<code>--ignore-update-url</code>参数，避免扩展自动更新导致破解失效。实验数据显示，未处理更新机制的破解扩展平均7天后会失效。  </p>  <h2>第三章：安全与伦理的边界</h2>  <h3>3.1 法律风险的全球地图</h3>  <ul> <li>欧盟：可能违反《通用数据保护条例》第5条  </li> <li>美国：受《计算机欺诈和滥用法案》约束  </li> <li>特定地区：直接触犯网络安全相关法律  </li> </ul>  <h3>3.2 反检测的五个技巧</h3>  <ol> <li>修改扩展图标和名称（降低特征识别）  </li> <li>随机化请求时间间隔（避免规律性流量）  </li> <li>禁用扩展错误报告（防止遥测数据泄露）  </li> <li>使用WebAssembly混淆关键代码  </li> <li>定期更换证书指纹  </li> </ol>  <h2>第四章：超越CRX的备选方案</h2>  <h3>4.1 技术矩阵对比</h3>  <p>| 方案        | 成功率 | 速度   | 隐蔽性 | 技术门槛 |<br /> |-------------|--------|--------|--------|----------|<br /> | CRX破解     | 85%    | ★★★★   | ★★★    | 高       |<br /> | VPN分流     | 75%    | ★★     | ★★★★   | 低       |<br /> | SSR混淆     | 92%    | ★★★    | ★★★★   | 中       |<br /> | Tor桥接     | 65%    | ★      | ★★★★★  | 中       |  </p>  <h3>4.2 新兴技术前瞻</h3>  <ul> <li>WebTransport协议穿透  </li> <li>QUIC协议伪装技术  </li> <li>基于WebRTC的P2P代理网络  </li> </ul>  <h2>技术点评：刀刃上的舞蹈</h2>  <p>CRX破解技术犹如一套精密的锁匠工具，它既可能打开知识自由的枷锁，也可能不慎划破法律与安全的边界。这项技术的魅力在于其"微创手术"般的精准——不需要全局流量转发，不产生系统级痕迹，仅在浏览器层面实现优雅的越狱。  </p>  <p>但必须清醒认识到，2023年Chrome扩展的沙盒机制已升级至v8版本，manifest V3更是大幅收紧了扩展权限。现代浏览器如同不断进化的免疫系统，而破解技术则是与之博弈的变异病毒。在这场永无止境的技术军备竞赛中，使用者既要保持工具的锋利，更要维持头脑的清醒——真正的自由不在于突破所有限制，而在于明智地选择突破哪些限制。  </p>  <p>正如某位匿名开发者所言："我们不是在创造漏洞，而是在揭示系统本身的多重可能性。"或许，CRX破解最深层的启示在于：在数字权利与技术约束的永恒张力中，永远存在第三条道路等待发掘。</p>                 </div>
                 <div class="clearfix"></div>
                 <div class="col-md-12 mt-5">
-                                        <p>上一个：<a href="/free-nodes/2025-8-19-clash-stash.htm">顶级免费节点 | 8月19日18.7M/S|免费V2ray/Clash/SSR/Shadowrocket节点推荐，V2rayC梯子购买推荐</a></p>
-                                        <p>下一个：<a href="/free-nodes/2025-8-21-clash-node-daily-updates.htm">顶级免费节点 | 8月21日21.5M/S|免费SSR/Clash/Shadowrocket/V2ray节点推荐，V2rayC梯子购买推荐</a></p>
+                                        <p>上一个：<a href="/free-nodes/2025-8-19-clash-stash.htm">顶级免费节点 | 8月19日18.7M/S|免费V2ray节点/Clash节点/SSR/Shadowrocket节点推荐，V2rayC梯子购买推荐</a></p>
+                                        <p>下一个：<a href="/free-nodes/2025-8-21-clash-node-daily-updates.htm">顶级免费节点 | 8月21日21.5M/S|免费SSR/Clash节点/Shadowrocket节点/V2ray节点推荐，V2rayC梯子购买推荐</a></p>
                                     </div>
                                 <div class="panel panel-default mt-5">
                     <div class="panel-heading">
@@ -159,16 +159,16 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
                     </div>
                     <div class="panel-body">
                         <ul class="p-0 x-0">
-                                                        <li class="py-2"><a href="/free-nodes/2025-8-19-clash-stash.htm">顶级免费节点 | 8月19日18.7M/S|免费V2ray/Clash/SSR/Shadowrocket节点推荐，V2rayC梯子购买推荐</a></li>
-                                                        <li class="py-2"><a href="/free-nodes/2025-8-18-clash-stash.htm">顶级免费节点 | 8月18日21.1M/S|免费SSR/V2ray/Shadowrocket/Clash节点推荐，V2rayC梯子购买推荐</a></li>
-                                                        <li class="py-2"><a href="/free-nodes/2025-8-17-clash-verge-rev-node-share.htm">顶级免费节点 | 8月17日21.7M/S|免费V2ray/SSR/Shadowrocket/Clash节点推荐，V2rayC梯子购买推荐</a></li>
-                                                        <li class="py-2"><a href="/free-nodes/2025-8-16-clash-stash.htm">顶级免费节点 | 8月16日19.3M/S|免费V2ray/Shadowrocket/Clash/SSR节点推荐，V2rayC梯子购买推荐</a></li>
-                                                        <li class="py-2"><a href="/free-nodes/2025-8-15-clash-node-github.htm">顶级免费节点 | 8月15日22.8M/S|免费Clash/V2ray/SSR/Shadowrocket节点推荐，V2rayC梯子购买推荐</a></li>
-                                                        <li class="py-2"><a href="/free-nodes/2025-8-14-clash-meta-github.htm">顶级免费节点 | 8月14日20.5M/S|免费V2ray/Clash/SSR/Shadowrocket节点推荐，V2rayC梯子购买推荐</a></li>
-                                                        <li class="py-2"><a href="/free-nodes/2025-8-13-clash-stash.htm">顶级免费节点 | 8月13日19.9M/S|免费SSR/Shadowrocket/Clash/V2ray节点推荐，V2rayC梯子购买推荐</a></li>
-                                                        <li class="py-2"><a href="/free-nodes/2025-8-12-node-share.htm">顶级免费节点 | 8月12日20.4M/S|免费SSR/Shadowrocket/Clash/V2ray节点推荐，V2rayC梯子购买推荐</a></li>
-                                                        <li class="py-2"><a href="/free-nodes/2025-8-11-clash-verge-rev-windows.htm">顶级免费节点 | 8月11日19.7M/S|免费V2ray/Clash/Shadowrocket/SSR节点推荐，V2rayC梯子购买推荐</a></li>
-                                                        <li class="py-2"><a href="/free-nodes/2025-8-10-clash-meta-github.htm">顶级免费节点 | 8月10日21.3M/S|免费SSR/Clash/Shadowrocket/V2ray节点推荐，V2rayC梯子购买推荐</a></li>
+                                                        <li class="py-2"><a href="/free-nodes/2025-8-19-clash-stash.htm">顶级免费节点 | 8月19日18.7M/S|免费V2ray节点/Clash节点/SSR/Shadowrocket节点推荐，V2rayC梯子购买推荐</a></li>
+                                                        <li class="py-2"><a href="/free-nodes/2025-8-18-clash-stash.htm">顶级免费节点 | 8月18日21.1M/S|免费SSR/V2ray节点/Shadowrocket节点/Clash节点推荐，V2rayC梯子购买推荐</a></li>
+                                                        <li class="py-2"><a href="/free-nodes/2025-8-17-clash-verge-rev-node-share.htm">顶级免费节点 | 8月17日21.7M/S|免费V2ray节点/SSR/Shadowrocket节点/Clash节点推荐，V2rayC梯子购买推荐</a></li>
+                                                        <li class="py-2"><a href="/free-nodes/2025-8-16-clash-stash.htm">顶级免费节点 | 8月16日19.3M/S|免费V2ray节点/Shadowrocket节点/Clash节点/SSR节点推荐，V2rayC梯子购买推荐</a></li>
+                                                        <li class="py-2"><a href="/free-nodes/2025-8-15-clash-node-github.htm">顶级免费节点 | 8月15日22.8M/S|免费Clash节点/V2ray节点/SSR/Shadowrocket节点推荐，V2rayC梯子购买推荐</a></li>
+                                                        <li class="py-2"><a href="/free-nodes/2025-8-14-clash-meta-github.htm">顶级免费节点 | 8月14日20.5M/S|免费V2ray节点/Clash节点/SSR/Shadowrocket节点推荐，V2rayC梯子购买推荐</a></li>
+                                                        <li class="py-2"><a href="/free-nodes/2025-8-13-clash-stash.htm">顶级免费节点 | 8月13日19.9M/S|免费SSR/Shadowrocket节点/Clash节点/V2ray节点推荐，V2rayC梯子购买推荐</a></li>
+                                                        <li class="py-2"><a href="/free-nodes/2025-8-12-node-share.htm">顶级免费节点 | 8月12日20.4M/S|免费SSR/Shadowrocket节点/Clash节点/V2ray节点推荐，V2rayC梯子购买推荐</a></li>
+                                                        <li class="py-2"><a href="/free-nodes/2025-8-11-clash-verge-rev-windows.htm">顶级免费节点 | 8月11日19.7M/S|免费V2ray节点/Clash节点/Shadowrocket节点/SSR节点推荐，V2rayC梯子购买推荐</a></li>
+                                                        <li class="py-2"><a href="/free-nodes/2025-8-10-clash-meta-github.htm">顶级免费节点 | 8月10日21.3M/S|免费SSR/Clash节点/Shadowrocket节点/V2ray节点推荐，V2rayC梯子购买推荐</a></li>
                                                     </ul>
                     </div>
                 </div>
@@ -182,16 +182,16 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2025-7-23-clash-verge-rev-node.htm" title="顶级免费节点 | 7月23日19.1M/S|免费V2ray/Shadowrocket/SSR/Clash节点推荐，V2rayC梯子购买推荐">顶级免费节点 | 7月23日19.1M/S|免费V2ray/Shadowrocket/SSR/Clash节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-7-31-node-share.htm" title="顶级免费节点 | 7月31日19.6M/S|免费Clash/V2ray/SSR/Shadowrocket节点推荐，V2rayC梯子购买推荐">顶级免费节点 | 7月31日19.6M/S|免费Clash/V2ray/SSR/Shadowrocket节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-7-24-clash-node-daily-updates.htm" title="顶级免费节点 | 7月24日18.9M/S|免费Shadowrocket/SSR/V2ray/Clash节点推荐，V2rayC梯子购买推荐">顶级免费节点 | 7月24日18.9M/S|免费Shadowrocket/SSR/V2ray/Clash节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-7-27-free-node-subscribe.htm" title="顶级免费节点 | 7月27日20.9M/S|免费Shadowrocket/V2ray/Clash/SSR节点推荐，V2rayC梯子购买推荐">顶级免费节点 | 7月27日20.9M/S|免费Shadowrocket/V2ray/Clash/SSR节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-8-16-clash-stash.htm" title="顶级免费节点 | 8月16日19.3M/S|免费V2ray/Shadowrocket/Clash/SSR节点推荐，V2rayC梯子购买推荐">顶级免费节点 | 8月16日19.3M/S|免费V2ray/Shadowrocket/Clash/SSR节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-8-22-mianfei-vpn.htm" title="VPN集合 - 8月22日18.1M/S|免费Clash/SSR/V2ray/Shadowrocket节点推荐，VPN节点购买推荐">VPN集合 - 8月22日18.1M/S|免费Clash/SSR/V2ray/Shadowrocket节点推荐，VPN节点购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-8-12-node-share.htm" title="顶级免费节点 | 8月12日20.4M/S|免费SSR/Shadowrocket/Clash/V2ray节点推荐，V2rayC梯子购买推荐">顶级免费节点 | 8月12日20.4M/S|免费SSR/Shadowrocket/Clash/V2ray节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-8-18-clash-stash.htm" title="顶级免费节点 | 8月18日21.1M/S|免费SSR/V2ray/Shadowrocket/Clash节点推荐，V2rayC梯子购买推荐">顶级免费节点 | 8月18日21.1M/S|免费SSR/V2ray/Shadowrocket/Clash节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-7-25-clash-verge-rev-windows.htm" title="顶级免费节点 | 7月25日19.8M/S|免费Shadowrocket/Clash/SSR/V2ray节点推荐，V2rayC梯子购买推荐">顶级免费节点 | 7月25日19.8M/S|免费Shadowrocket/Clash/SSR/V2ray节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-7-13-clash-verge-rev-node.htm" title="顶级免费节点 | 7月13日18.1M/S|免费V2ray/Clash/SSR/Shadowrocket节点推荐，V2rayC梯子购买推荐">顶级免费节点 | 7月13日18.1M/S|免费V2ray/Clash/SSR/Shadowrocket节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-8-24-free-vpn-node.htm" title="VPN集合 - 8月24日18.3M/S|免费SSR/V2ray节点/Shadowrocket节点/Clash节点推荐，VPN节点购买推荐">VPN集合 - 8月24日18.3M/S|免费SSR/V2ray节点/Shadowrocket节点/Clash节点推荐，VPN节点购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-8-19-clash-stash.htm" title="顶级免费节点 | 8月19日18.7M/S|免费V2ray节点/Clash节点/SSR/Shadowrocket节点推荐，V2rayC梯子购买推荐">顶级免费节点 | 8月19日18.7M/S|免费V2ray节点/Clash节点/SSR/Shadowrocket节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-8-15-clash-node-github.htm" title="顶级免费节点 | 8月15日22.8M/S|免费Clash节点/V2ray节点/SSR/Shadowrocket节点推荐，V2rayC梯子购买推荐">顶级免费节点 | 8月15日22.8M/S|免费Clash节点/V2ray节点/SSR/Shadowrocket节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-9-17-free-node-subscribe.htm" title="VPN集合 - 9月17日18.9M/S|免费Clash节点/Shadowrocket节点/SSR/V2ray节点推荐，VPN节点购买推荐">VPN集合 - 9月17日18.9M/S|免费Clash节点/Shadowrocket节点/SSR/V2ray节点推荐，VPN节点购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-8-10-clash-meta-github.htm" title="顶级免费节点 | 8月10日21.3M/S|免费SSR/Clash节点/Shadowrocket节点/V2ray节点推荐，V2rayC梯子购买推荐">顶级免费节点 | 8月10日21.3M/S|免费SSR/Clash节点/Shadowrocket节点/V2ray节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-9-13-mianfei-vpn.htm" title="VPN集合 - 9月13日18M/S|免费V2ray节点/Shadowrocket节点/SSR/Clash节点推荐，VPN节点购买推荐">VPN集合 - 9月13日18M/S|免费V2ray节点/Shadowrocket节点/SSR/Clash节点推荐，VPN节点购买推荐</a></li>
+                        <li class="py-2"><a href="/news/article-154125.htm" title="全面解析Clash节点加载失败：从排查到优化的完整指南">全面解析Clash节点加载失败：从排查到优化的完整指南</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-8-30-free-vpn.htm" title="VPN集合 - 8月30日19.2M/S|免费Clash节点/Shadowrocket节点/SSR/V2ray节点推荐，VPN节点购买推荐">VPN集合 - 8月30日19.2M/S|免费Clash节点/Shadowrocket节点/SSR/V2ray节点推荐，VPN节点购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-8-21-clash-node-daily-updates.htm" title="顶级免费节点 | 8月21日21.5M/S|免费SSR/Clash节点/Shadowrocket节点/V2ray节点推荐，V2rayC梯子购买推荐">顶级免费节点 | 8月21日21.5M/S|免费SSR/Clash节点/Shadowrocket节点/V2ray节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/news/article-154872.htm" title="华为的全球突围战：技术争锋与地缘博弈下的生存之道">华为的全球突围战：技术争锋与地缘博弈下的生存之道</a></li>
                     </ul>
     </div>
 </div>
@@ -203,10 +203,10 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">27</span> <a href="/date/2025-08/" title="2025-08 归档">2025-08</a></h4>
+                <h4><span class="badge" style="float: right;">23</span> <a href="/date/2025-09/" title="2025-09 归档">2025-09</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">23</span> <a href="/date/2025-07/" title="2025-07 归档">2025-07</a></h4>
+                <h4><span class="badge" style="float: right;">28</span> <a href="/date/2025-08/" title="2025-08 归档">2025-08</a></h4>
             </li>
                     </ul>
     </div>
@@ -222,7 +222,8 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
         <!-- footer -->
     <footer>
         <p class="copyright-agileinfo">
-                                <p>
+                                <p>本站内容仅供学习与技术研究用途，无意传播或倡导任何违反法律法规的行为。在此声明：用户须自行了解所在地法律法规，合法合规使用；因使用不当产生的法律责任，与本站及作者无关；请在使用前仔细阅读本声明，继续使用即视为同意以上条款。</p>
+                    <p>
                                                 <a href="/">首页</a> |
                                                 <a href="/free-nodes/">免费节点</a> |
                                                 <a href="/paid-subscribe/">推荐机场</a> |
@@ -233,7 +234,7 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
                         <a href="/privacy.htm">隐私申明</a> |
                         <a href="/sitemap.xml">网站地图</a>
                     </p>
-            VPN集合 中文站 版权所有
+                                VPN集合 中文站 版权所有
             <br />
             Powered by WordPress
         </p>
