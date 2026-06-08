@@ -1,4 +1,4 @@
-# VPN集合 - 5月30日19.9M/S|免费Shadowrocket节点/Clash节点/Singbox节点/V2ray节点/SSR节点节点推荐，VPN节点购买推荐  更新时间 2026-05-30 10:30:48
+# VPN集合 - 6月8日19.8M/S|免费Shadowrocket节点/V2ray节点/Clash节点/SSR节点/Singbox节点节点推荐，VPN节点购买推荐  更新时间 2026-06-08 08:37:47
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://vpnjihe.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### 免费Clash节点订阅链接
 
-- https://vpnjihe.github.io/uploads/2026/05/0-20260530.yaml
-- https://vpnjihe.github.io/uploads/2026/05/1-20260530.yaml
-- https://vpnjihe.github.io/uploads/2026/05/2-20260530.yaml
-- https://vpnjihe.github.io/uploads/2026/05/3-20260530.yaml
-- https://vpnjihe.github.io/uploads/2026/05/4-20260530.yaml
+- https://vpnjihe.github.io/uploads/2026/06/0-20260608.yaml
+- https://vpnjihe.github.io/uploads/2026/06/1-20260608.yaml
+- https://vpnjihe.github.io/uploads/2026/06/2-20260608.yaml
+- https://vpnjihe.github.io/uploads/2026/06/3-20260608.yaml
+- https://vpnjihe.github.io/uploads/2026/06/4-20260608.yaml
 
 ### 免费V2ray节点订阅链接
 
-- https://vpnjihe.github.io/uploads/2026/05/0-20260530.txt
-- https://vpnjihe.github.io/uploads/2026/05/1-20260530.txt
-- https://vpnjihe.github.io/uploads/2026/05/2-20260530.txt
-- https://vpnjihe.github.io/uploads/2026/05/3-20260530.txt
-- https://vpnjihe.github.io/uploads/2026/05/4-20260530.txt
+- https://vpnjihe.github.io/uploads/2026/06/0-20260608.txt
+- https://vpnjihe.github.io/uploads/2026/06/1-20260608.txt
+- https://vpnjihe.github.io/uploads/2026/06/2-20260608.txt
+- https://vpnjihe.github.io/uploads/2026/06/3-20260608.txt
+- https://vpnjihe.github.io/uploads/2026/06/4-20260608.txt
 
 ### 免费Sing-box节点订阅链接
 
-- https://vpnjihe.github.io/uploads/2026/05/20260530.json
+- https://vpnjihe.github.io/uploads/2026/06/20260608.json
 
 ## 更多Clash节点订阅 ：
 
